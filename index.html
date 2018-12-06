@@ -25,6 +25,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Secret Documents</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Opinion Piece</a>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   More Info
@@ -43,14 +46,13 @@
 
 
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
-
-              <div class="carousel-item">
+              <div class="carousel-item active">
                 <a href = "https://www.nbcnews.com/feature/edward-snowden-interview/nsa-officials-snowden-emailed-question-not-concern-n118011"><img class="d-block w-100" src="img/snowden.jpg" alt="First slide"></a>
               </div>
 
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <a href="https://www.theverge.com/2013/7/17/4517480/nsa-spying-prism-surveillance-cheat-sheet"><img class="d-block w-100" src="img/prism.png" alt="Second slide"></a>
               </div>
               
@@ -58,19 +60,19 @@
                 <a href="https://mashable.com/2013/06/07/nsa-prism-faq/"><img class="d-block w-100" src="img/nsa.jpg" alt="Third slide"></a>
               </div>
 
+              <div class="carousel-item">
+                <a href="https://www.dw.com/en/new-zealand-blocks-chinas-huawei-from-planned-5g-roll-out/a-46481057/"><img class="d-block w-100" src="img/huawei.jpg" alt="Fourth slide"></a>
+              </div>
             </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
             </a>
-
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
             </a>
           </div>
-
 
           
           <div class="jumbotron">
@@ -79,38 +81,48 @@
               <hr class="my-4">
               <p>We collect the most explosive and more secretive tech insider information daily so you can gain a more balanced view into the world of tech politics.</p>
               <br>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Our Missions</a>
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Our Mission
+                </a>
+             
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  We are sick and tired of blantant hypocrisies and double standards that exist in the tech sector. We don't care which nation states misbehave, not a single country can claim a moral high ground which is 100% nonexistent. 
+                  By visiting our sites, you will be much more aware of the mass surveillance programmes and cyber attacks implemented by various governments around the world and you will realize that all politicians are unscrupulous liars! 
+                </div>
+              </div>
             </div>
-
-
-          
-          
 
           
           <br>
-
           <h2>&nbsp;&nbsp;Latest News</h2>
-          
-          
+          <br>
+                 
           <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>          
-              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-dark">A simple dark list group item</a>
+              <a href="https://www.rt.com/usa/445687-huawei-executive-arrest-extradition/" class="list-group-item list-group-item-action list-group-item-primary">Huawei finance chief arrested in Canada.</a>          
+              <a href="https://edition.cnn.com/2018/12/05/tech/huawei-5g-bt-technology/index.html" class="list-group-item list-group-item-action list-group-item-primary">Huawei's 5G ambitions suffer another big setback.</a>
+              <a href="https://www.afr.com/news/special-reports/cyber-security/the-lowy-institute-hit-by-chinese-hackers-20181203-h18nn3" class="list-group-item list-group-item-action list-group-item-primary">Lowy Institute hit by Chinese hackers</a>
+              <a href="https://edition.cnn.com/2018/12/05/tech/australia-encryption-law/index.html" class="list-group-item list-group-item-action list-group-item-secondary">Australia wants to snoop on WhatsApp and other encrypted apps</a>
+              <a href="https://www.thenational.ae/world/europe/mi6-chief-russia-major-culprit-in-cyber-and-terrorist-attacks-1.798464" class="list-group-item list-group-item-action list-group-item-success">MI6 chief: Russia major culprit in cyber and terrorist attacks</a>
+              <a href="https://www.theregister.co.uk/2018/12/03/czech_russia_hacking/" class="list-group-item list-group-item-action list-group-item-success">Czech yourself, Russia! Prague says its foreign ministry was hacked for more than a year</a>
+              <a href="https://www.thenewsminute.com/article/india-witnessing-heavy-cyber-attacks-russia-us-china-report-91377" class="list-group-item list-group-item-action list-group-item-danger">India witnessing heavy cyber attacks from Russia, US, China: Report</a>
+              <a href="https://www.nbcnews.com/news/us-news/secret-service-tests-facial-recognition-surveillance-system-outside-white-house-n943536" class="list-group-item list-group-item-action list-group-item-warning">Secret Service tests facial recognition surveillance system outside White House</a>
+              <a href="https://www.wired.com/story/us-firm-wants-build-chinas-surveillance-state/" class="list-group-item list-group-item-action list-group-item-warning">This US Firm Wants to Help Build China's Surveillance State</a>
+              <a href="https://www.theengineer.co.uk/nypd-drone-programme/" class="list-group-item list-group-item-action list-group-item-warning">NYPD unveils drone programme amid privacy concerns</a>
+              <a href="https://www.computing.co.uk/ctg/news/3034348/us-cyber-command-given-powers-to-launch-cyber-attacks-on-other-nations" class="list-group-item list-group-item-action list-group-item-warning">US Cyber Command given powers to launch cyber attacks on other nations</a>
           </div>
 
-
-          
-
-
-          
-
+          <br>
         
+          <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Tech Insiders </p>
+      </div>
+      <!-- /.container -->
+    </footer>
   
   </body>
 </html>
